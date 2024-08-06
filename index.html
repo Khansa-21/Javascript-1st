@@ -4,24 +4,27 @@
 <head>
 
     <script>
-        let height = prompt("Enter a height")
-        let age = prompt("Enter age")
-        let Education = prompt("Enter education level")
+        var height = prompt("Enter a height")
+        var age = prompt("Enter age")
+        var Education = prompt("Enter education level")
 
-            // if (height >= 5 && age >= 18) {
-            //     console.log("You are qualified")
-            // }
-            // else if (height >= 5 && Education >= 14) {
-            //     console.log("You are not qualified")
-            // }
-            // else if (age >= 18 && education >= 14) {
-            //     console.log("You are not qualified")
-            // }
-            // else {
-            //     console.log("You are not qualified")
-            // }
+        height = parseFloat(height);
+        age = parseInt(age);
+        Education = parseInt(Education);
+        // if (height >= 5 && age >= 18) {
+        //     console.log("You are qualified")
+        // }
+        // else if (height >= 5 && Education >= 14) {
+        //     console.log("You are not qualified")
+        // }
+        // else if (age >= 18 && education >= 14) {
+        //     console.log("You are not qualified")
+        // }
+        // else {
+        //     console.log("You are not qualified")
+        // }
 
-            (height >= 5 && age >= 18) ? console.log("You are qualified") : (age >= 18 && education >= 14) ? console.log("You are qualified") : (height >= 5 && Education >= 14) ? console.log("You are qualified") : console.log("You are not qualified")
+        (height >= 5 && age >= 18) ? console.log("You are qualified") : (age >= 18 && education >= 14) ? console.log("You are qualified") : (height >= 5 && Education >= 14) ? console.log("You are qualified") : console.log("You are not qualified")
     </script>
     <title>Document</title>
 </head>
